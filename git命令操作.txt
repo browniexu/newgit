@@ -1,0 +1,19 @@
+创建版本库
+git init
+git add filename添加文件
+git commit -m '注释'
+git status是否有文件未提交
+git diff filename查看具体修改的内容
+版本回退
+git log
+git log --pretty=online
+回退原来的版本：
+git reset --hard HEAD^
+git reset --hard HEAD^^
+git reset --hard HEAD^100
+cat x.txt查看文件内容
+恢复到最新的版本：
+git reset --hard 版本号
+如果忘了版本号：
+git reflog
+git reset --hard 版本号
