@@ -33,3 +33,4 @@ add ssh keys
 添加远程库：
 git remote add origin https://github.com/tugenhua0707/testgit.git
 git push -u origin master         (由于远程库是空的，所以第一次推送master分支的时候要加上-u)
+从现在起，只要本地做了提交，然后就可以通过如下命令将本地分支的修改推送到github上了
