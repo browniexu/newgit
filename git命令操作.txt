@@ -17,3 +17,9 @@ git reset --hard 版本号
 如果忘了版本号：
 git reflog
 git reset --hard 版本号
+丢弃工作区的修改：
+git checkout -- x.txt
+git restore x.txt
+先添加到暂存区中，然后修改的情况，撤销之后回到添加到暂存区后的状态：
+git add x.txt
+git checkout -- x.txt
