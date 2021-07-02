@@ -23,3 +23,13 @@ git restore x.txt
 先添加到暂存区中，然后修改的情况，撤销之后回到添加到暂存区后的状态：
 git add x.txt
 git checkout -- x.txt
+删除文件：
+rm b.txt
+在未commit之前，恢复删掉的文件：
+git checkout -- b.txt
+远程仓库：
+ssh-keygen -t rsa -C "1750371110@qq.com"
+add ssh keys
+添加远程库：
+git remote add origin https://github.com/tugenhua0707/testgit.git
+git push -u origin master         (由于远程库是空的，所以第一次推送master分支的时候要加上-u)
